@@ -1,0 +1,74 @@
+body{
+  background: #141414;
+}
+
+
+.card{
+  margin: 1rem;
+  width: 300px;
+  height: 500px;
+  background-color: #141414;
+  border: 1px #555555 solid;
+  border-radius: 5px;
+  padding-top: 0px;
+  text-align: center;
+  /*position: relative;*/
+  transition: 0.5s;
+  overflow: hidden;
+  
+}
+  
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.card_title {
+  color: #555555;
+  font-size: 20px;
+  
+  
+}
+
+.card_subtitle{
+  color: #999999;
+  font-size: 16px
+}
+
+
+
+.card_image{
+  width: 300px;
+  height: 350px;
+}
+.card_ratio{
+
+  
+}
+
+
+.card_footer{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  
+
+
+}
+.select{
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 5px;
+  width: 100%;
+  font-size: 15px;
+  cursor: inherit;
+  line-height: inherit;
+  color: beige;
+  
+  
+  
+}
+
